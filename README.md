@@ -3,3 +3,5 @@ Nesse repositório está disponibilizado uma pagina web simples desenvolvida em 
 
 ## Visualizar página
 Faça o download dos arquivos em um mesmo diretório e abra o arquivo **index.html** com seu navegador.
+
+## Entre nesse link para visualizar a página: https://jonasfor.github.io/HTML-and-CSS/
