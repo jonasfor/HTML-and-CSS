@@ -1,56 +1,193 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset = "utf-8">
-        <title>My site</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="icon.ico" >
-        <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jonas Forte Silva</title>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Sacramento|Ubuntu&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  <script src="https://kit.fontawesome.com/8aed23412e.js" crossorigin="anonymous"></script>  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+</head>
+
+<body >
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">Jonas Forte</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         
-    </head>
-    <body>
-        <div class = "topContainer">
-            <img class = "top_cloud_img" src="./css Images/cloud.png" alt="cloud-img">
-            <h1>I'm Jonas</h1>
-            <h2>a <span class = "pro">pro</span>grammer</h2>
-            <img class = "bot_cloud_img" src="./css Images/cloud.png" alt="cloud-img">
-            <img class = "mountain_img" src="./css Images/moutain.png" alt="mountain-img">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="#mid_section">Habilidades </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mid_section2">Formação</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <!-- TITULOS E DESCRIPTION -->
+      <div class="col-lg-6 col-sm-6 top_text">
+          <h1>Olá, sou Jonas</h1>
+          <h2>Essa página contém minhas informações e um exemplo de codificação Front-end básico.</h2>
+          <button onclick="location.href = 'https://www.linkedin.com/in/jonas-forte';" type="button" class="btn btn-outline-dark btn-lg button">Linked <i class="fab fa-linkedin"></i></button>
+          <button onclick="location.href = 'https://github.com/jonasfor';" type="button" class="btn btn-dark button btn-lg"><i class="fab fa-github"></i> GitHub</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTAINERS HABILIDADES -->
+  <section id="mid_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-code fa-4x code"></i>
+              <h2 style="text-decoration: underline;">Código</h2>
+              <h3>Desenvolver softwares com qualidade sempre foi um objetivo claro para mim. Uma boa lógica tem sido a maior ferramenta de meu uso. Busco utilizar as melhores tecnologias e padrões para cada caso de uso que desenvolvo.</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="far fa-user-circle fa-4x code"></i>
+              <h2 style="text-decoration: underline;">Perfil</h2>
+              <h3>Eu me considero uma pessoa calma, generosa e dedicada. Busco ouvir os outros e entender os problemas para que se encontre uma solução ou se estabeleça um diálogo. Sempre estudando e buscando melhorias.</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-briefcase fa-4x code"></i>
+              <h2 style="text-decoration: underline;">Profissional</h2>
+              <h3>Profissionalmente busco evoluir e exercer o melhor trabalho sempre. Sou pro ativo e tenho interesse por aquilo que faço. Me esforço para manter uma boa relação profissional e social em todos os ambientes.</h3>
+          </div>
         </div>
-        <div class="midContainer">
-                <div class="profile">
-                        <img class = "perfil_img" src="./css Images/perfil.jpg" alt="perfil-img">
-                  <h2>Hello.</h2>
-                  <p class="intro">
-                    My name is jonas forte and I really enjoy developing software. Usually, I like to develop the highest technology web applications on the market. This is an example of a pure HTML and CSS application.</p>
+        <h2 class="tec_title">Tecnologias</h2><br>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-c-plain fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-cplusplus-line fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-css3-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+               <i class="devicon-html5-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-nodejs-plain-wordmark fa-6x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-java-plain-wordmark fa-5x"></i>
+          </div>
+        </div>
+        <div class="row row_tec">
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-python-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+               <i class="devicon-bootstrap-plain-wordmark fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+               <i class="devicon-git-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-javascript-plain fa-4x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-mongodb-plain-wordmark fa-5x"></i>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4" style="text-align: center;">
+              <i class="devicon-mysql-plain-wordmark fa-5x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- CONTAINERS FORMAÇÃO -->
+  <section id="mid_section2">
+      <div class="container-fluid">
+        <div class="row row_form">
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação I</h2>
+              <h3>Faculdade de Ciência da Computação na Universidade Estadual do Mato Grosso do Sul, desenvolvida com iniciação a pesquisa e trabalho de conclusão de curso com o título: "Sistema explorador de arquivos baseado em criptografia".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação II</h2>
+              <h3>Faculdade de Engenharia de Computação na Universidade Federal da Grande Dourados, desenvolvida com aproveitamento de conteúdo e trabalho de conclusão de curso com o título: "Uma estação meterológica de baixo custo com ESP32".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-certificate fa-4x"></i>
+              <h2 style="text-decoration: underline;">Certificação</h2>
+              <h3>Certificados de Desenvolvimento Web, Banco de Dados, Liguagens específicas, Paradigmas de programação, Documentação (UML), GitFlow, Infraestrutura, entre outros.</h3>
+          </div>
+        </div>
+        <div class="row row_carousel">
+            <div id="carousel_mywebapp" class="carousel slide carousel_size" data-ride="false" data-interval="2500" data-pause="hover">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_mywebapp" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel_mywebapp" data-slide-to="1"></li>
+                    <li data-target="#carousel_mywebapp" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="First slide">
+                    </div>
+                    <div class="carousel-item" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="Second slide">
+                    </div>
+                    <div class="carousel-item" style="background-color: gray">
+                        <img class="d-block w-100" src="..." alt="Third slide">
+                    </div>
                 </div>
-                <hr>
-                <div class="skills">
-                  <h2>My Skills.</h2>
-                  <div class="skill_row">
-                    <img class = "code_img" src="./css Images/code.png" alt="code-img">
-                    <h3>Development and Coding</h3>
-                    <p>Logic is the most important skill for me, but i try to keep good coding pratices and use the best development pattern.</p>
-                  </div>
-                  <div class="skill_row">
-                    <img class = "git_img" src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" alt="code-git">
-                    <h3>Technologies</h3>
-                    <p>The latest technologies I am using and studying for my evolution are: node js, react, mongodb, python web and other things.</p>
-                  </div>
-                </div>
-                <hr>
-                <div class="contact_me">
-                  <h2>Get In Touch</h2>
-                  <h3>Contact me for anything</h3>
-                  <p class="contact_me_info">For jobs, study, partnerships and collabs send me a e-mail.</p>
-                  <a class="btn" href="mailto:jonas.f.forte@gmail.com">CONTACT ME</a>
-                </div>
-              </div>
-              
-              
-              <div class="botContainer">
-                <a class="footer-link" href="https://www.linkedin.com/in/jonas-forte">LinkedIn</a>
-                <a class="footer-link" href="https://jonasfor.github.io/HTML-and-CSS/">Website</a>
-                <p class="copyr">© 2018 Jonas Forte Silva.</p>
-              </div>              
-    </body>
+                <a class="carousel-control-prev" href="#carousel_mywebapp" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel_mywebapp" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+      </div>
+  </section>
+  <section id="bot_section">
+      <div class="container-fluid">
+        <div class="row row_form">
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação I</h2>
+              <h3>Faculdade de Ciência da Computação na Universidade Estadual do Mato Grosso do Sul, desenvolvida com iniciação a pesquisa e trabalho de conclusão de curso com o título: "Sistema explorador de arquivos baseado em criptografia".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-graduation-cap fa-4x"></i>
+              <h2 style="text-decoration: underline;">Graduação II</h2>
+              <h3>Faculdade de Engenharia de Computação na Universidade Federal da Grande Dourados, desenvolvida com aproveitamento de conteúdo e trabalho de conclusão de curso com o título: "Uma estação meterológica de baixo custo com ESP32".</h3>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align: center;">
+              <i class="fas fa-certificate fa-4x"></i>
+              <h2 style="text-decoration: underline;">Certificação</h2>
+              <h3>Certificados de Desenvolvimento Web, Banco de Dados, Liguagens específicas, Paradigmas de programação, Documentação (UML), GitFlow, Infraestrutura, entre outros.</h3>
+          </div>
+        </div>
+      </div>
+  </section>
+</body>
 </html>

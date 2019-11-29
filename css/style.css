@@ -1,160 +1,100 @@
-/* ###############################    HTMLS    ################################## */
+#title{
+  background-image: url("../images/programer.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#mid_section{
+  background-color: #EFEFf1;
+}
+#mid_section2{
+  background-image: linear-gradient(to bottom, #efeff1, #e7e8ea, #dfe1e2, #d7dadb, #d0d3d3);
+}
+#bot_section{
+    background: rgb(208,211,211);
+    background: linear-gradient(180deg, rgba(208,211,211,1) 0%, rgba(184,184,184,1) 50%, rgba(154,154,154,1) 100%);
+}
 body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 200%;
+  font-family: 'Montserrat', sans-serif;
 }
-
 h1{
-    margin-top: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 6.62rem;
-    color: #404040;
-    margin: 70px auto 0 auto;
-    line-height: 2;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  line-height: 1.5;
+  margin-left: 10px;
+  align-items: center;
 }
-
 h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #808080;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-left: 10px;
+} 
 h3{
-    font-family: 'Merriweather', serif;
-    
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 10px;
 }
-
-p{
-    line-height: 2;
-}
-
-hr{
-    border: dotted #eaf6f6 9px;
-    border-bottom: none;
-    width: 5%;
-    margin: 100px auto ;
-}
-
-a{
-    color: #404040;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-a:hover{
-    color: #808080;
-}
-
-
-/* ###############################    IMAGES    ################################## */
- .bot_cloud_img{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 250px;
-    bottom: 600px;
-}
-.top_cloud_img{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    right: 300px;
-    top: 40px;
-}
-
-.mountain_img{
+.carousel-item {
     width: 800px;
-    height: 800px;
-}
-
-.perfil_img{
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-    padding-top: 50px;
-}
-
-
-.code_img{
-    width: 18rem;
-    height: 18rem;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 60px;
-}
-
-.git_img{
-    width: 18rem;
-    height: 18rem;
-    float: right;
-    margin-left: 30px;
-}
-
-
-/* ###############################    CONTAINERS   ################################## */
-.topContainer{
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
-}
-
-.midContainer{
-    margin: 100px 0;
-}
-
-.botContainer{
-    background-color:#8fad80;
-    padding: 50px 0 20px;
-}
-
-
-/* ###############################    CUSTOM    ################################## */
-.pro{
-    text-decoration: underline;
-}
-
-.intro{
-    width: 30%;
+    height: 400px;
     margin: auto;
 }
-
-.skill_row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+.carousel-inner{
+    margin: auto;
 }
-
-.contact_me_info{
-    width: 40%;
-    margin: 40px auto 60px;
+.carousel_size {
+    width: 800px;
+    height: 400px;
+    margin: auto;
 }
-
-.copyr{
-    color: #e4f9f5;
-    font-size: 0.75rem;
-    padding: 20px 0;
+.navbar{
+  padding-bottom: 2.5rem;
 }
-
-.btn {
-	box-shadow: 1px 6px 18px -7px #3c6e26;
-	background:linear-gradient(to bottom, #8fad80 5%, #94b086 100%);
-	background-color:#8fad80;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:25px;
-	font-weight:bold;
-	padding:25px 35px;
-    text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+.nav-item{
+  padding: 0 18px;
 }
-.btn:hover {
-	background:linear-gradient(to bottom, #004400 5%, #004400 100%);
-	background-color:#003300;
+.nav-link{
+  font-size: 1.25rem;
+}
+.navbar-brand{
+  font-size: 2.0rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.top_text{
+  padding-top: 15%;
+}
+.row_tec{
+  padding-top: 5%;
+}
+.row_form{
+  padding-top: 5%;
+}
+.row_carousel{
+  padding: 100px;
+}
+.tec_title{
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  text-decoration: underline;
+}
+.code{
+  padding-bottom: 30px;
+}
+.code:hover{
+  color: #D5B197;
+}
+.button{
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.pro{
+  text-decoration: underline;
 }
